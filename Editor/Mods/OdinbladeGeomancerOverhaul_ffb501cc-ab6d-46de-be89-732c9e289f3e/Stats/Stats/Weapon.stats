@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_OdinGEO_PoisonElemental" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcClubs" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="EMPTY" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Damage Type" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="WeaponType" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="Boosts" type="StringStatObjectFieldDefinition" value="_Enemy_Boost_PoisonDamage" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Status_VenomCoating" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Status_SiphonPoison" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="23" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinGEO_Staves_Earth" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Staves_2H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="95" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Projectile_StaffOfMagus" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinGEO_Staves_Earth" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinGEO_Staves_Earth" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Staff" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Staves_Earth" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinGEO_Wands_Earth" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Wands_1H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="55" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="1300" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinGEO_Wand_Earth" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinGEO_Wands_Earth" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Wands_Earth" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinGEO_Maces_Earth_1H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Maces_1H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="67" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="3500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="StrengthBoost" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
+        <field name="IntelligenceBoost" type="EnumerationStatObjectFieldDefinition" value="12" enumeration_type_name="Penalty Qualifier" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinGEO_Mace_Earth_1H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinGEO_Maces_Earth_1H" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Club,Hammer" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Maces_Earth_1H" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinGEO_Maces_Earth_2H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Maces_2H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="105" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="6000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Target_HeavyAttack" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="StrengthBoost" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
+        <field name="IntelligenceBoost" type="EnumerationStatObjectFieldDefinition" value="12" enumeration_type_name="Penalty Qualifier" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinGEO_Mace_Earth_2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinGEO_Maces_Earth_2H" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="TwoHandedMaces,Hammer" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Maces_Earth_2H" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_OdinGEO_EarthElemental" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcClubs" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="EMPTY" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="WeaponType" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="Boosts" type="StringStatObjectFieldDefinition" value="_Enemy_Boost_EarthDamage" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinGEO_Daggers_Poison" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Daggers" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="55" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="25" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinGEO_Daggers_Poison" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinGEO_Daggers_Poison" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Dagger,CuttingTool" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Daggers_Poison" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_OdinGEO_Maces_Poison_1H" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Maces_1H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 12" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="67" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="3500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="StrengthBoost" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
+        <field name="IntelligenceBoost" type="EnumerationStatObjectFieldDefinition" value="12" enumeration_type_name="Penalty Qualifier" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_OdinGEO_Mace_Poison_1H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_OdinGEO_Maces_Poison_1H" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Club,Hammer" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Maces_Poison_1H" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_OdinGEO_Earthbrand" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_BOOSTS_Weapon" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="OdinGEO_Earthbrand_Proc,100,0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_OdinGEO_VenomCoating" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_BOOSTS_Weapon" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="OdinGEO_VenomCoating_Proc,100,0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

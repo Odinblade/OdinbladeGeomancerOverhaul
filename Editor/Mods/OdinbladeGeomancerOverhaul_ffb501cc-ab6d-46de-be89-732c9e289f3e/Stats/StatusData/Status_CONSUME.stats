@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="VENOM_COATING" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Venom Coating" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Earth_VenomCoating" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="20" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_VenomCoating_Subject_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_VenomCoating" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_OdinBrand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_GranitePlating" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Granite Plating" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Maximum Physical Armor increased." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBGEO_Skill_GranitePlating" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="15" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="OdinGEO_Status_Granite_Plating_01:Dummy_BodyFX" />
+        <field name="MaterialType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="MaterialType" />
+        <field name="MaterialApplyBody" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MaterialApplyArmor" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MaterialApplyWeapon" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MaterialApplyNormalMap" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="MaterialFadeAmount" type="IntegerStatObjectFieldDefinition" value="3000" />
+        <field name="MaterialParameters" type="StringStatObjectFieldDefinition" value="CharacterHeight:Height" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_OdinGEO_GranitePlating" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_OdinGEO_GranitePlating" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

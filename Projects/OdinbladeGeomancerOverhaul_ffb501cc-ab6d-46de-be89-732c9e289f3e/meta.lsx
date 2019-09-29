@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="1" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="ffb501cc-ab6d-46de-be89-732c9e289f3e" type="23" />
+            <attribute id="Name" value="OdinbladeGeomancerOverhaul" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="0bb72966-9b0f-4836-ba92-0f34b5c13cd5" type="23" />
+        </node>
+    </region>
+</save>

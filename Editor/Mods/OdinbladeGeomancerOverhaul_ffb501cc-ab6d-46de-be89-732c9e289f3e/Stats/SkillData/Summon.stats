@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="81d21913-ef1d-4fd8-bc01-1dcee5d3e4eb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArtilleryPlant" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SummonLevel" type="IntegerStatObjectFieldDefinition" value="-1" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="EarthSpecialist 1; Summoning 1" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="e63a712f-fc87-4469-8848-fd8941043afd" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="SummonCount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Earth_PoisonousPlantMonster" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Conjure Poison Elemental" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Fabricate a &lt;font color='#65C900'&gt;Poison Elemental&lt;/font&gt; at target location. The &lt;font color=&quot;#65C900&quot;&gt;Elemental&lt;/font&gt; lasts 5 turns and is a mid-range caster. &lt;br&gt;&lt;br&gt;At &lt;font color=&quot;#7f25d4&quot;&gt;10 Summoning&lt;/font&gt;, the &lt;font color=&quot;#65C900&quot;&gt;Elemental&lt;/font&gt; increases in size and gains additional stats." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Totem_Root_01,KeepRot,Detach:Dummy_Root" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_summon_totem_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Cast_Summon_Totem_Root_01:Dummy_Root" />
+        <field name="CastEffectTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_UI_TargetPreviewer_Earth_01" />
+        <field name="AiCalculationSkillOverride" type="StringStatObjectFieldDefinition" value="Target_DummyTargetSkill" />
+        <field name="TemplateAdvanced" type="StringStatObjectFieldDefinition" value="f2d051da-a4ef-4bb4-83f7-5091834a9c4e" />
+        <field name="TemplateOverride" type="StringStatObjectFieldDefinition" value="f2d051da-a4ef-4bb4-83f7-5091834a9c4e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_ConjureEarthElemental" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SummonLevel" type="IntegerStatObjectFieldDefinition" value="-1" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="EarthSpecialist 1; Summoning 1" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Template" type="StringStatObjectFieldDefinition" value="1713d400-3b45-4126-872c-4ca8c3fce2f5" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="SummonCount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBGEO_Skill_ConjureEarthElemental" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Conjure Earth Elemental" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Fabricate a &lt;font color='#7f3d00'&gt;Earth Elemental&lt;/font&gt; at target location. The &lt;font color=&quot;#7f3d00&quot;&gt;Elemental&lt;/font&gt; lasts 5 turns and is a bulky brute. &lt;br&gt;&lt;br&gt;At &lt;font color=&quot;#7f25d4&quot;&gt;10 Summoning&lt;/font&gt;, the &lt;font color=&quot;#7f3d00&quot;&gt;Elemental&lt;/font&gt; increases in size and gains additional stats." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_totem_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Prepare_Earth_Root_01,KeepRot,Detach:Dummy_Root" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_summon_totem_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Cast_Self_Earth_Root_01:Dummy_Root" />
+        <field name="CastEffectTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_UI_TargetPreviewer_Earth_01" />
+        <field name="AiCalculationSkillOverride" type="StringStatObjectFieldDefinition" value="Target_DummyTargetSkill" />
+        <field name="TemplateAdvanced" type="StringStatObjectFieldDefinition" value="57cb5e7d-0edf-405a-8658-f72121e2a0d0" />
+        <field name="TemplateOverride" type="StringStatObjectFieldDefinition" value="57cb5e7d-0edf-405a-8658-f72121e2a0d0" />
+        <field name="TargetCastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Rock_Impact_01" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

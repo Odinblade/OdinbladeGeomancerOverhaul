@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_ArtilleryPlant" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PlantAcidSpore" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_ArtilleryPlant_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_ArtilleryPlant" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_PlantAcidWave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_ArtilleryPlant_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Dome_OdinGEO_SporeShrooms_Summon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_ArtilleryPlant" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OdinGEO_EarthElemental" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PyroclasticRock_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinGEO_EarthElemental" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_MendMetal_Summon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinGEO_OilyTouch_Summon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OdinGEO_EarthElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Grovetender" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PoisonDartStart" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Class_Windweaver_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Fortify" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Grovetender" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinAERO_Class_Windweaver_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Dome_OdinGEO_SporeShrooms" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Grovetender" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Plague" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Contamination" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PoisonDartStart" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Plague" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinGEO_NoxiousTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Plague" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Terramancer" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PyroclasticRock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinGEO_OilyTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Terramancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Fortify" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Terramancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Class_Sentinel" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinGEO_OilyTouch" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinGEO_Earthbrand" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Sentinel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Fortify" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Class_Sentinel" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="d4bbd7d3-eef6-4a97-a253-7fe5d06f83ef">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_01" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#FF696969" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF8B4513" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FFBDB76B" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_02" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#FF121E1E" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF6B8E23" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FF8FBC8F" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_03" />
+        <field name="Primary Color" type="ColorStatObjectFieldDefinition" value="#3d3329" />
+        <field name="Secondary Color" type="ColorStatObjectFieldDefinition" value="#FF228B22" />
+        <field name="Tertiary Color" type="ColorStatObjectFieldDefinition" value="#FF7CFC00" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
