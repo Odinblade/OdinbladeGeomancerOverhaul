@@ -290,6 +290,165 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_Earthbrand" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_0" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_SporeShrooms" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_NoxiousTouch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_2" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_OilyTouch" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_3" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_VenomBurst" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_4" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_RockVolley" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_5" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_ConjureEarthElemental" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_6" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_GraniteShield" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_7" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_Expunge" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_8" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_SeismicSlide" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_9" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_NaturesJudgement" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_10" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_NaturalRemedy" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_11" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_BoulderCrash" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_12" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_SongOfTheDryads" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_13" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_TectonicSpray" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_14" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_ParasiticAffliction" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_Trader" />
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
@@ -555,165 +714,6 @@
         <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="T_ST_OdinGEO_NewSpells" />
         <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_Trader" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_Earthbrand" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_0" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_SporeShrooms" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_1" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_NoxiousTouch" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_2" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_OilyTouch" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_3" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_VenomBurst" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_4" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_RockVolley" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_5" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_ConjureEarthElemental" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_6" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_GraniteShield" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_7" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_Expunge" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_8" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_SeismicSlide" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_9" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_NaturesJudgement" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_10" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_NaturalRemedy" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_11" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_BoulderCrash" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_12" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_SongOfTheDryads" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_13" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_TectonicSpray" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells_substat_14" />
-        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="I_SKILLBOOK_Earth_OdinGEO_ParasiticAffliction" />
-        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

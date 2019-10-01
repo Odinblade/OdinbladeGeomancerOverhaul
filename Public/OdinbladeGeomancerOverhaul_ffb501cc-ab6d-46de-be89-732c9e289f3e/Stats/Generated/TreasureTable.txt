@@ -54,6 +54,55 @@ new subtable "0,1;1,1;2,1"
 StartLevel "9"
 object category "OdinGEO_Maces_Poison_1H",1,0,0,1,0,0,0,0
 object category "OdinGEO_Maces_Poison_1H",1,0,0,0,1,0,0,0
+new treasuretable "ST_OdinGEO_NewSpells"
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Earth_OdinGEO_Earthbrand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Earth_OdinGEO_SporeShrooms",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Earth_OdinGEO_NoxiousTouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_Earth_OdinGEO_OilyTouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Earth_OdinGEO_VenomBurst",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Earth_OdinGEO_RockVolley",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Earth_OdinGEO_ConjureEarthElemental",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Earth_OdinGEO_GraniteShield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Earth_OdinGEO_Expunge",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Earth_OdinGEO_SeismicSlide",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Earth_OdinGEO_NaturesJudgement",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Earth_OdinGEO_NaturalRemedy",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Earth_OdinGEO_BoulderCrash",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Earth_OdinGEO_SongOfTheDryads",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Earth_OdinGEO_TectonicSpray",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Earth_OdinGEO_ParasiticAffliction",1,0,0,0,0,0,0,0
 new treasuretable "ST_OdinGEO_Trader"
 new subtable "1,1"
 StartLevel "1"
@@ -136,55 +185,6 @@ object category "I_SKILLBOOK_Earth_MassOilyCarapace",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "1"
 object category "T_ST_OdinGEO_NewSpells",1,0,0,0,0,0,0,0
-new treasuretable "ST_OdinGEO_NewSpells"
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Earth_OdinGEO_Earthbrand",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Earth_OdinGEO_SporeShrooms",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Earth_OdinGEO_NoxiousTouch",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_Earth_OdinGEO_OilyTouch",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Earth_OdinGEO_VenomBurst",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Earth_OdinGEO_RockVolley",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Earth_OdinGEO_ConjureEarthElemental",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Earth_OdinGEO_GraniteShield",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Earth_OdinGEO_Expunge",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Earth_OdinGEO_SeismicSlide",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Earth_OdinGEO_NaturesJudgement",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
-object category "I_SKILLBOOK_Earth_OdinGEO_NaturalRemedy",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
-object category "I_SKILLBOOK_Earth_OdinGEO_BoulderCrash",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
-object category "I_SKILLBOOK_Earth_OdinGEO_SongOfTheDryads",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "16"
-object category "I_SKILLBOOK_Earth_OdinGEO_TectonicSpray",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "16"
-object category "I_SKILLBOOK_Earth_OdinGEO_ParasiticAffliction",1,0,0,0,0,0,0,0
 new treasuretable "ST_Skillbook_EarthTrainer"
 CanMerge 1
 new subtable "1,1"
