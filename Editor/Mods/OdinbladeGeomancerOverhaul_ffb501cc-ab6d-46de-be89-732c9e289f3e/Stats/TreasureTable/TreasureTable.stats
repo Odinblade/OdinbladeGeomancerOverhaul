@@ -288,6 +288,54 @@
         <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
       </fields>
     </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEOWeapon_substat_19" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Daggers_Earth" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEOWeapon" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEOWeapon_substat_20" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Daggers_Earth" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEOWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="1,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEOWeapon_substat_21" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Daggers_Earth" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEOWeapon" />
+        <field name="DropCount" type="StringStatObjectFieldDefinition" value="0,1;1,1;2,1" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEOWeapon_substat_22" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="OdinGEO_Daggers_Earth" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Common" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Uncommon" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rare" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Epic" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ST_OdinGEOWeapon" />
+        <field name="StartLevel" type="IntegerStatObjectFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ST_OdinGEO_NewSpells" />

@@ -15,6 +15,8 @@ DB_OBGEO_Corruption(_Character, _Source);
 IF
 CharacterStatusRemoved(_Character, "OdinGEO_Corruption", _)
 AND
+CharacterIsDead(_Character, 0)
+AND
 DB_OBGEO_Corruption(_Character, _Source)
 THEN
 CharacterAddToPlayerCharacter(_Character, (CHARACTERGUID)_Source);
@@ -71,6 +73,19 @@ THEN
     ApplyStatus(_Defender, "OdinGEO_Spored", 6.0, 0, _Attacker);
     ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_VenomCoating", 100);
 
+IF
+    CharacterStatusAttempt(_Defender, "OdinGEO_VenomCoating_Proc", (CHARACTERGUID)_Attacker)
+AND
+    HasActiveStatus(_Attacker, "VENOM_AURA", 1)
+AND
+    HasActiveStatus(_Defender, "OdinGEO_Spored", 0)
+AND
+    NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender)
+THEN
+    DB_OdinGEO_VenomCoating(_Attacker, _Defender);
+    ApplyStatus(_Defender, "OdinGEO_Spored", 6.0, 0, _Attacker);
+    ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_VenomCoating", 100);
+
 PROC
     ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinGEO_VenomCoating")
 AND
@@ -82,6 +97,15 @@ THEN
 //REGION OBGEO_VenomCoating_DeltaModifier
 IF
     CharacterStatusApplied(_Char, "VENOM_COATING", _)
+AND
+    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+AND
+    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating")
+THEN
+    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating");
+
+IF
+    CharacterStatusApplied(_Char, "VENOM_AURA", _)
 AND
     CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
 AND

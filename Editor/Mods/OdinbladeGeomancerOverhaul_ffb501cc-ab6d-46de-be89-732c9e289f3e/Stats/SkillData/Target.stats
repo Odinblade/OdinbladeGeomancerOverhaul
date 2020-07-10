@@ -492,7 +492,6 @@
         <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Cast_Ground_Earth_Root_01" />
         <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
       </fields>
     </stat_object>
@@ -504,7 +503,37 @@
         <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Cast_Ground_Earth_Root_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Enemy_OilyTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_OilyTouch" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Enemy_ParasiticAffliction" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_ParasiticAffliction" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinGEO_Enemy_Expunge" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinGEO_Expunge" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="HasStatus:POISONED" />
       </fields>
     </stat_object>
   </stat_objects>

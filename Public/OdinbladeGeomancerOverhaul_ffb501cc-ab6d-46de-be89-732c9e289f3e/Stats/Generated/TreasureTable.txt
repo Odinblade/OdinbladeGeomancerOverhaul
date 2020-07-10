@@ -54,6 +54,15 @@ new subtable "0,1;1,1;2,1"
 StartLevel "9"
 object category "OdinGEO_Maces_Poison_1H",1,0,0,1,0,0,0,0
 object category "OdinGEO_Maces_Poison_1H",1,0,0,0,1,0,0,0
+new subtable "1,1"
+object category "OdinGEO_Daggers_Earth",1,1,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "OdinGEO_Daggers_Earth",1,0,1,0,0,0,0,0
+new subtable "0,1;1,1;2,1"
+StartLevel "9"
+object category "OdinGEO_Daggers_Earth",1,0,0,1,0,0,0,0
+object category "OdinGEO_Daggers_Earth",1,0,0,0,1,0,0,0
 new treasuretable "ST_OdinGEO_NewSpells"
 new subtable "1,1"
 StartLevel "1"

@@ -277,7 +277,7 @@
         <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
         <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
         <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
-        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="270" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="235" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
         <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="CreateSurface,3,,Oil,100;TARGET:OdinGEO_Oiled,100,2;" />
