@@ -80,31 +80,6 @@ ACTIONS
 	GetPosition(_Character, _Pos)
 	CreateSurfaceAt(_Character, SurfacePoison, 1, 1, _Character)
 
-//STATUS -> CORRUPTION_START
-EVENT OdinGeo_Status_Corruption_Start
-VARS
-CHARACTER:_Character
-CHARACTER:_Source
-
-ON
-	OnCharacterStatusApplied(_Character, OdinGEO_Corruption)
-ACTIONS
-IF "c1"
-	CharacterGetStatusSourceCharacter(_Character, OdinGEO_Corruption, _Source)
-THEN
-	Set(%CorruptionSource, _Source)
-ENDIF
-
-//STATUS -> CORRUPTION_END
-EVENT OdinGeo_Status_Corruption_End
-VARS
-CHARACTER:_Character
-
-ON
-	OnCharacterStatusRemoved(_Character, OdinGEO_Corruption)
-ACTIONS
-	CharacterApplyStatus(_Character, OdinGEO_Corruption_End, 0, 1, %CorruptionSource)
-
 //STATUS -> NO_MARM_CRIPPLED
 EVENT OdinGeo_Status_No_Marm_Crippled
 VARS
