@@ -7,6 +7,8 @@ KBSECTION
 IF
 CharacterStatusApplied(_Character, "OdinGEO_Corruption", _Source)
 AND
+NOT DB_IsPlayer(_Character)
+AND
 CharacterHasTalent(_Character, "Zombie", 1)
 THEN
 CharacterRemoveTalent(_Character, "Zombie");
@@ -27,92 +29,92 @@ NOT DB_OBGEO_Corruption(_Character, _Source);
 
 //REGION OBGEO_Earthbrand_OnHit
 IF
-    CharacterStatusAttempt(_Defender, "OdinGEO_Earthbrand_Proc", (CHARACTERGUID)_Attacker)
+CharacterStatusAttempt(_Defender, "OdinGEO_Earthbrand_Proc", (CHARACTERGUID)_Attacker)
 AND
-    HasActiveStatus(_Attacker, "OdinGEO_Earthbrand", 1)
+HasActiveStatus(_Attacker, "OdinGEO_Earthbrand", 1)
 AND
-    HasActiveStatus(_Defender, "OdinGEO_Oiled", 0)
+HasActiveStatus(_Defender, "OdinGEO_Oiled", 0)
 AND
-    NOT DB_OdinGEO_Earthbrand(_Attacker, _Defender)
+NOT DB_OdinGEO_Earthbrand(_Attacker, _Defender)
 THEN
-    DB_OdinGEO_Earthbrand(_Attacker, _Defender);
-    ApplyStatus(_Defender, "OdinGEO_Oiled", 6.0, 0, _Attacker);
-    ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_Earthbrand", 100);
+DB_OdinGEO_Earthbrand(_Attacker, _Defender);
+ApplyStatus(_Defender, "OdinGEO_Oiled", 6.0, 0, _Attacker);
+ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_Earthbrand", 100);
 
 PROC
-    ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinGEO_Earthbrand")
+ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinGEO_Earthbrand")
 AND
-    DB_OdinGEO_Earthbrand(_Attacker, _Defender)
+DB_OdinGEO_Earthbrand(_Attacker, _Defender)
 THEN
-    NOT DB_OdinGEO_Earthbrand(_Attacker, _Defender);
+NOT DB_OdinGEO_Earthbrand(_Attacker, _Defender);
 //END_REGION
 
 //REGION OBGEO_Earthbrand_DeltaModifier
 IF
-    CharacterStatusApplied(_Char, "OdinGEO_Earthbrand", _)
+CharacterStatusApplied(_Char, "OdinGEO_Earthbrand", _)
 AND
-    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
 AND
-    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_Earthbrand")
+NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_Earthbrand")
 THEN
-    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_Earthbrand");
+ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_Earthbrand");
  //END_REGION
 
 
 //REGION OBGEO_VenomCoating_OnHit
 IF
-    CharacterStatusAttempt(_Defender, "OdinGEO_VenomCoating_Proc", (CHARACTERGUID)_Attacker)
+CharacterStatusAttempt(_Defender, "OdinGEO_VenomCoating_Proc", (CHARACTERGUID)_Attacker)
 AND
-    HasActiveStatus(_Attacker, "VENOM_COATING", 1)
+HasActiveStatus(_Attacker, "VENOM_COATING", 1)
 AND
-    HasActiveStatus(_Defender, "OdinGEO_Spored", 0)
+HasActiveStatus(_Defender, "OdinGEO_Spored", 0)
 AND
-    NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender)
+NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender)
 THEN
-    DB_OdinGEO_VenomCoating(_Attacker, _Defender);
-    ApplyStatus(_Defender, "OdinGEO_Spored", 6.0, 0, _Attacker);
-    ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_VenomCoating", 100);
+DB_OdinGEO_VenomCoating(_Attacker, _Defender);
+ApplyStatus(_Defender, "OdinGEO_Spored", 6.0, 0, _Attacker);
+ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_VenomCoating", 100);
 
 IF
-    CharacterStatusAttempt(_Defender, "OdinGEO_VenomCoating_Proc", (CHARACTERGUID)_Attacker)
+CharacterStatusAttempt(_Defender, "OdinGEO_VenomCoating_Proc", (CHARACTERGUID)_Attacker)
 AND
-    HasActiveStatus(_Attacker, "VENOM_AURA", 1)
+HasActiveStatus(_Attacker, "VENOM_AURA", 1)
 AND
-    HasActiveStatus(_Defender, "OdinGEO_Spored", 0)
+HasActiveStatus(_Defender, "OdinGEO_Spored", 0)
 AND
-    NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender)
+NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender)
 THEN
-    DB_OdinGEO_VenomCoating(_Attacker, _Defender);
-    ApplyStatus(_Defender, "OdinGEO_Spored", 6.0, 0, _Attacker);
-    ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_VenomCoating", 100);
+DB_OdinGEO_VenomCoating(_Attacker, _Defender);
+ApplyStatus(_Defender, "OdinGEO_Spored", 6.0, 0, _Attacker);
+ProcObjectTimer(_Defender, "Clear_DB_OdinGEO_VenomCoating", 100);
 
 PROC
-    ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinGEO_VenomCoating")
+ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinGEO_VenomCoating")
 AND
-    DB_OdinGEO_VenomCoating(_Attacker, _Defender)
+DB_OdinGEO_VenomCoating(_Attacker, _Defender)
 THEN
-    NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender);
+NOT DB_OdinGEO_VenomCoating(_Attacker, _Defender);
 //END_REGION
 
 //REGION OBGEO_VenomCoating_DeltaModifier
 IF
-    CharacterStatusApplied(_Char, "VENOM_COATING", _)
+CharacterStatusApplied(_Char, "VENOM_COATING", _)
 AND
-    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
 AND
-    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating")
+NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating")
 THEN
-    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating");
+ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating");
 
 IF
-    CharacterStatusApplied(_Char, "VENOM_AURA", _)
+CharacterStatusApplied(_Char, "VENOM_AURA", _)
 AND
-    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
 AND
-    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating")
+NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating")
 THEN
-    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating");
- //END_REGION
+ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinGEO_VenomCoating");
+//END_REGION
 
 //REGION DEBUG SKILLS
 IF

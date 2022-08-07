@@ -1,46 +1,37 @@
 <contentList>
-	<content contentuid="h6f5d5166g5a20g45adg865dg70b4b658cde9" Source="OdinGEO_Vendor.lsj">*Take my leave*</content>
-	<content contentuid="h6273f840g0e0dg4b14g94d5gad4863f8c709" Source="OdinGEO_Vendor.lsj">If you change your mind, I&apos;ll be here. And remember - the balance must be preserved.</content>
-	<content contentuid="hc53ea047g60f6g4f26gb729gc3ce1b601eb4" Source="OdinGEO_Vendor.lsj">I would like to trade.</content>
-	<content contentuid="h8e657fedg2dd9g457fgbefeg44a55f617b40" Source="OdinGEO_Vendor.lsj">Mortals need the earth just as it needs them. We Grovetenders exist to preserve the balance of nature. Perhaps you can aid us in our conquest...</content>
-	<content contentuid="h18d35ccfg9c8bg4ebbgb9e1gb6711cda78d3" Source="_merged.lsf">Vine Grasp Skillbook</content>
-	<content contentuid="h8795a9b9g1dadg4c85gb677g3a0333e8399b" Source="_merged.lsf">Conjure Poison Elemental Skillbook</content>
-	<content contentuid="h3bd63ebdgd489g4567ga1edg4c2c2a541512" Source="_merged.lsf">Venom Coating Skillbook</content>
-	<content contentuid="h6202787bge43cg44d4ga169gc1e251942fd0" Source="_merged.lsf">Poison Elemental</content>
-	<content contentuid="hf37d2d3fg1d8eg416ega954g798337e96556" Source="_merged.lsf">Hungy Flower</content>
-	<content contentuid="h37802770g0aaag43cega662g7aa71f072149" Source="_merged.lsf">Vine Wall</content>
-	<content contentuid="h5f3f34b2g0fc2g4fcfg9d27gcb3687d8b61a" Source="_merged.lsf">Vine Wall</content>
-	<content contentuid="h3cc9122fg47a9g47bbgb7c9g77b28a49ec31" Source="_merged.lsf">Vine Wall</content>
-	<content contentuid="h7efe18abgd0e6g4768g8506g993323bd4440" Source="_merged.lsf">Midnight Oil Skillbook</content>
-	<content contentuid="h5b58a9a9g7632g4958g88fagd579fcea5423" Source="_merged.lsf"></content>
-	<content contentuid="h3170c7c0g1a6dg4b59g97ebgd4d911469580" Source="157ea073-2663-4f81-a1d5-ce9284e009ad.lsf">Tectonic Spray Skillbook</content>
-	<content contentuid="h95426e5cg78d4g4260gb32fg84dad4b6e1b6" Source="1713d400-3b45-4126-872c-4ca8c3fce2f5.lsf">Earth Elemental</content>
-	<content contentuid="h9e5f1a54g5c8ag46b2g9b49g8c5794ef84c7" Source="18ba2fee-df6c-4d18-bc8d-c0b229c11c66.lsf">Nature&apos;s Decree Skillbook</content>
-	<content contentuid="hcfaf18a2gd1a8g4d30g9feagec896a02d1b5" Source="1b16473e-fd7f-46d5-ab56-733d66a3dbfa.lsf"></content>
-	<content contentuid="h7226fe30g636eg4e1dga7e0gfc8dad496549" Source="27fcf621-be54-4a90-9b28-1a1537e5bfbb.lsf">Expunge Skillbook</content>
-	<content contentuid="h01f927eegc1d6g4aadga693gcbd32fced588" Source="2ab5dfef-059d-4309-a932-905d1e076d84.lsf">Seismic Slide Skillbook</content>
-	<content contentuid="h54f46576ga554g4957gbebagea43c06bb3dc" Source="30210c45-5cdd-49ff-a930-f8bf0730f95c.lsf">Shapeshift: Clay Sentinel Skillbook</content>
-	<content contentuid="h6a2db35fg4d4dg4df7gae43g802b199dd392" Source="47313de1-8212-4e45-8dc0-7cefb39fa31f.lsf">Earthbrand Skillbook</content>
-	<content contentuid="h778393cfg3f5eg465cga7bege8dc9a1c11d9" Source="51c48f0b-4a8f-4b5c-8466-7de7f0bbc40a.lsf">Bunny</content>
-	<content contentuid="h938a3b1eg8451g4de8g9df8g3538faf9594f" Source="57cb5e7d-0edf-405a-8658-f72121e2a0d0.lsf">Earth Elemental</content>
-	<content contentuid="h0742f3b8gd496g4cfdg9563gd0d026fee2fa" Source="5ad18688-9342-435a-b836-823b63efa965.lsf">Oily Touch Skillbook</content>
-	<content contentuid="h97e21ae8g0d85g44d8g9ac0g3917aa5ab8d0" Source="7287e901-f992-4bfc-9e2a-0ca0c875f1ac.lsf">Chicken</content>
-	<content contentuid="hfeccb8bbgf99fg4028gb187g607c18c2cbaa" Source="7287e901-f992-4bfc-9e2a-0ca0c875f1ac.lsf"></content>
-	<content contentuid="h4f8ffb9fg339dg4988gba05g8b5a35de890e" Source="74ae6a69-a57f-487e-9129-abd464e838e5.lsf">Noxious Touch Skillbook</content>
-	<content contentuid="h4eb77ca0gbc41g432agb865gebef0f6ca09c" Source="789b47b7-273e-4bee-bf79-6f5ca60cda6a.lsf">Squirrel</content>
-	<content contentuid="h1aef7c1agb3c7g4856g8294g9a97bef9610c" Source="7bb1075a-329d-461a-9f92-01aad2238861.lsf">Spore Shrooms Skillbook</content>
-	<content contentuid="h3dbc5d88g835ag4027g9cecg56429a21a885" Source="8941a9f3-8f47-4aac-93b4-43bce61dbb04.lsf">Sentinel Form</content>
-	<content contentuid="hc5047e48g51fbg4c58g9949g36058bec6b36" Source="97239f37-547a-4217-9185-8eb232a9a9fc.lsf">Kestia the Preserver</content>
-	<content contentuid="hc4a8c87dg0af3g47eagb7a9g57f325b1d627" Source="9c2761f6-2ae1-4449-89b3-83d7b7c4e40e.lsf"></content>
-	<content contentuid="h4539556dg108bg42bdgb806g38c49637eb55" Source="a29caa03-5b23-4f1b-8603-fc1dd16ccebb.lsf">Parasitic Affliction Skillbook</content>
-	<content contentuid="h6e8a8d82g03f5g418bg9dbcg3c2ec96e6b70" Source="a3baaf60-7f42-40b6-b93d-1f53753e653c.lsf">Natural Remedy Skillbook</content>
-	<content contentuid="h02f7d745ga9dfg46fbga65ag114bd1bb3bb9" Source="a4538769-bbb8-495b-9358-c76a0a488707.lsf">Geomancer skills are Earth-based magic spells. High intelligence improves these skills. Read this book to learn this skill.</content>
-	<content contentuid="hed061431g248fg4568g9d15g2a4a5e166d42" Source="a4538769-bbb8-495b-9358-c76a0a488707.lsf">Boulder Crash Skillbook</content>
-	<content contentuid="hcf97a6e7ga0ebg4fe3ga4dcg393c9c87423f" Source="a4538769-bbb8-495b-9358-c76a0a488707.lsf">Skillbooks</content>
-	<content contentuid="h658e8421g0532g4638gb3d6g7952ee863e15" Source="a959b592-ba74-42b7-b05e-f6fbf0716eb5.lsf">Conjure Earth Elemental Skillbook</content>
-	<content contentuid="hc35b96e5g2943g4405g8eb1g1d8903514a6c" Source="aa428315-f3da-4105-8d7d-861cc2a1417c.lsf"></content>
-	<content contentuid="h6af11c2fg713ag4a51gaa53g546d5c6f7752" Source="bff95629-6ac3-4678-a537-7b95471a5ad7.lsf">Corrupting Vial Skillbook</content>
-	<content contentuid="h901e4d9fg8a64g4823g9df0g4588f9d97f8a" Source="cb4b1c77-fb57-47b1-be22-0a4f1622f1de.lsf"></content>
+	<content contentuid="h97e21ae8g0d85g44d8g9ac0g3917aa5ab8d0" Source="Animals_OdinGEO_Chicken">Chicken</content>
+	<content contentuid="h778393cfg3f5eg465cga7bege8dc9a1c11d9" Source="Animals_OdinGEO_Rabbit">Bunny</content>
+	<content contentuid="h4eb77ca0gbc41g432agb865gebef0f6ca09c" Source="Animals_OdinGEO_Squirrel">Squirrel</content>
+	<content contentuid="h02f7d745ga9dfg46fbga65ag114bd1bb3bb9" Source="BOOK_Skill_Earth_OdinGEO_BoulderCrash">Geomancer skills are Earth-based magic spells. High intelligence improves these skills. Read this book to learn this skill.</content>
+	<content contentuid="hed061431g248fg4568g9d15g2a4a5e166d42" Source="BOOK_Skill_Earth_OdinGEO_BoulderCrash">Boulder Crash Skillbook</content>
+	<content contentuid="hcf97a6e7ga0ebg4fe3ga4dcg393c9c87423f" Source="BOOK_Skill_Earth_OdinGEO_BoulderCrash">Skillbooks</content>
+	<content contentuid="h658e8421g0532g4638gb3d6g7952ee863e15" Source="BOOK_Skill_Earth_OdinGEO_ConjureEarthElemental">Conjure Earth Elemental Skillbook</content>
+	<content contentuid="h6af11c2fg713ag4a51gaa53g546d5c6f7752" Source="BOOK_Skill_Earth_OdinGEO_CorruptingVial">Corrupting Vial Skillbook</content>
+	<content contentuid="h6a2db35fg4d4dg4df7gae43g802b199dd392" Source="BOOK_Skill_Earth_OdinGEO_Earthbrand">Earthbrand Skillbook</content>
+	<content contentuid="h7226fe30g636eg4e1dga7e0gfc8dad496549" Source="BOOK_Skill_Earth_OdinGEO_Expunge">Expunge Skillbook</content>
+	<content contentuid="h6dc66c73gbbfcg4789gac48gad118e1b9cf9" Source="BOOK_Skill_Earth_OdinGEO_GranitePlating">Granite Plating Skillbook</content>
+	<content contentuid="h6e8a8d82g03f5g418bg9dbcg3c2ec96e6b70" Source="BOOK_Skill_Earth_OdinGEO_NaturalRemedy">Natural Remedy Skillbook</content>
+	<content contentuid="h9e5f1a54g5c8ag46b2g9b49g8c5794ef84c7" Source="BOOK_Skill_Earth_OdinGEO_NaturesDecree">Nature&apos;s Decree Skillbook</content>
+	<content contentuid="h4f8ffb9fg339dg4988gba05g8b5a35de890e" Source="BOOK_Skill_Earth_OdinGEO_NoxiousTouch">Noxious Touch Skillbook</content>
+	<content contentuid="h0742f3b8gd496g4cfdg9563gd0d026fee2fa" Source="BOOK_Skill_Earth_OdinGEO_OilyTouch">Oily Touch Skillbook</content>
+	<content contentuid="h4539556dg108bg42bdgb806g38c49637eb55" Source="BOOK_Skill_Earth_OdinGEO_ParasiticAffliction">Parasitic Affliction Skillbook</content>
+	<content contentuid="h624b3d68gb31fg4955gaa80g6edce20c33b4" Source="BOOK_Skill_Earth_OdinGEO_RockVolley">Rock Volley Skillbook</content>
+	<content contentuid="h01f927eegc1d6g4aadga693gcbd32fced588" Source="BOOK_Skill_Earth_OdinGEO_SeismicSlide">Seismic Slide Skillbook</content>
+	<content contentuid="h54f46576ga554g4957gbebagea43c06bb3dc" Source="BOOK_Skill_Earth_OdinGEO_Sentinel">Shapeshift: Clay Sentinel Skillbook</content>
+	<content contentuid="hf88a89c0gf589g4b38g809eg8949e72fd8b6" Source="BOOK_Skill_Earth_OdinGEO_SongOfTheDryads">Song of the Dryads Skillbook</content>
+	<content contentuid="h1aef7c1agb3c7g4856g8294g9a97bef9610c" Source="BOOK_Skill_Earth_OdinGEO_SporeShrooms">Spore Shrooms Skillbook</content>
+	<content contentuid="h3170c7c0g1a6dg4b59g97ebgd4d911469580" Source="BOOK_Skill_Earth_OdinGEO_TectonicSpray">Tectonic Spray Skillbook</content>
+	<content contentuid="h9a8660cagccf5g47d0g8632gfb1d0c1f66c9" Source="BOOK_Skill_Earth_OdinGEO_VenomBurst">Venom Burst Skillbook</content>
+	<content contentuid="h18d35ccfg9c8bg4ebbgb9e1gb6711cda78d3" Source="BOOK_Skill_Earth_WormTremor">Vine Grasp Skillbook</content>
+	<content contentuid="h8795a9b9g1dadg4c85gb677g3a0333e8399b" Source="BOOK_Skill_Earth_WormTremor">Conjure Poison Elemental Skillbook</content>
+	<content contentuid="h3bd63ebdgd489g4567ga1edg4c2c2a541512" Source="BOOK_Skill_Earth_WormTremor">Venom Coating Skillbook</content>
+	<content contentuid="h6202787bge43cg44d4ga169gc1e251942fd0" Source="BOOK_Skill_Earth_WormTremor">Poison Elemental</content>
+	<content contentuid="hf37d2d3fg1d8eg416ega954g798337e96556" Source="BOOK_Skill_Earth_WormTremor">Hungy Flower</content>
+	<content contentuid="h37802770g0aaag43cega662g7aa71f072149" Source="BOOK_Skill_Earth_WormTremor">Vine Wall</content>
+	<content contentuid="h5f3f34b2g0fc2g4fcfg9d27gcb3687d8b61a" Source="BOOK_Skill_Earth_WormTremor">Vine Wall</content>
+	<content contentuid="h3cc9122fg47a9g47bbgb7c9g77b28a49ec31" Source="BOOK_Skill_Earth_WormTremor">Vine Wall</content>
+	<content contentuid="h7efe18abgd0e6g4768g8506g993323bd4440" Source="BOOK_Skill_Earth_WormTremor">Midnight Oil Skillbook</content>
+	<content contentuid="h5b58a9a9g7632g4958g88fagd579fcea5423" Source="BOOK_Skill_Earth_WormTremor"></content>
 	<content contentuid="hb02109f7g45b5g459dg8a2dg3ce854938c00" Source="Cone_Description.lsb" Key="Cone_CorrosiveSpray_Description">Destroy [1] and apply &lt;font color=&apos;#00aa00&apos;&gt;Acid&lt;/font&gt; and &lt;font color=&apos;#c80030&apos;&gt;Atrophy&lt;/font&gt; to characters in a cone. &lt;br&gt;&lt;br&gt;Also creates a &lt;font color=&apos;#65C900&apos;&gt;Cursed Poison surface&lt;/font&gt;.</content>
 	<content contentuid="hf023092fg92d8g432egb579gfe082beb66c5" Source="Cone_Description.lsb" Key="Cone_OdinGEO_EarthShatter_Description">|Smash your weapon into the ground, damaging all non-allied characters in a cone in front of you for [1] damage and knocking them down. Clears non-cursed surfaces and clouds.|</content>
 	<content contentuid="h7fe7012bg33c8g497agbff3g91a3897edf7c" Source="Cone_Description.lsb" Key="Cone_OdinGEO_TectonicSpray_Description">Spray oil in a cone, dealing [1] and creating an &lt;font color=&apos;#676464&apos;&gt;Oil surface&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Characters without &lt;font color=&quot;#188ede&quot;&gt;Magic Armour&lt;/font&gt; become &lt;font color=&apos;#C7A758&apos;&gt;Petrified&lt;/font&gt;, preventing them from taking action, and &lt;font color=&apos;#676464&apos;&gt;Oiled&lt;/font&gt;, reducing &lt;font color=&apos;#7f3d00&apos;&gt;Earth Resistance by [2]%&lt;/font&gt; and &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistance by [3]%&lt;/font&gt;.</content>
@@ -51,18 +42,12 @@
 	<content contentuid="hbb485f99ga6b6g4b77gafe6g331bc090d69f" Source="Cone_DisplayName.lsb" Key="Cone_OdinGEO_TitanicPummel_DisplayName">Titanic Pummel</content>
 	<content contentuid="h511a4abegb05ag42fbg8272gcdf7f2451b3a" Source="Cone_StatsDescription.lsb" Key="Cone_OdinGEO_EarthShatter_StatsDescription">Cone angle: [2]&lt;br&gt;Length: [3]</content>
 	<content contentuid="h8e9b16fdge6a9g4b93g8682g58a065807639" Source="Cone_StatsDescription.lsb" Key="Cone_OdinGEO_TitanicPummel_StatsDescription">Cone angle: [2]&lt;br&gt;Length: [3]</content>
-	<content contentuid="h602dabd2gd54bg4016g9ae3g537dd838cb4f" Source="d11affc7-1846-4658-a0cb-63743753b64b.lsf"></content>
+	<content contentuid="h3dbc5d88g835ag4027g9cecg56429a21a885" Source="Creatures_OdinGEO_TitanForm">Sentinel Form</content>
 	<content contentuid="hfb7fc30cgfa6bg46dfgbc0eg7cbb32519ffc" Source="Dome_Description.lsb" Key="Dome_OdinGEO_SporeShrooms_Description">Shrooms cover target area, applying &lt;font color=&apos;#65C900&apos;&gt;Spore&lt;/font&gt; to nearby characters. &lt;br&gt;&lt;br&gt;&lt;font color=&apos;#65C900&apos;&gt;Spore&lt;/font&gt; reduces &lt;font color=&apos;#65C900&apos;&gt;Poison Resistance by [1]%&lt;/font&gt; and &lt;font color=&apos;#7f3d00&apos;&gt;Earth Resistance by [2]%&lt;/font&gt;. Also reduces &lt;font color=&quot;#c80030&quot;&gt;Movement Speed by [3]%&lt;/font&gt;.</content>
 	<content contentuid="hd7c2ad47g1227g400dg835bgfc0e54c0823b" Source="Dome_Description.lsb" Key="Dome_OdinGEO_SporeShrooms_Summon_Description">Shrooms cover target area, applying &lt;font color=&apos;#65C900&apos;&gt;Spore&lt;/font&gt; to nearby characters. &lt;br&gt;&lt;br&gt;&lt;font color=&apos;#65C900&apos;&gt;Spore&lt;/font&gt; reduces &lt;font color=&apos;#65C900&apos;&gt;Poison Resistance by [1]%&lt;/font&gt; and &lt;font color=&apos;#7f3d00&apos;&gt;Earth Resistance by [2]%&lt;/font&gt;. Also reduces &lt;font color=&quot;#c80030&quot;&gt;Movement Speed by [3]%&lt;/font&gt;.</content>
 	<content contentuid="h30e6b6dfg0d48g4eb7g8ec2g55e6b084f171" Source="Dome_DisplayName.lsb" Key="Dome_OdinGEO_SporeShrooms_DisplayName">Spore Shrooms</content>
 	<content contentuid="ha2ffdda6g4b68g4e8aga61fg427dbad3ec3f" Source="Dome_DisplayName.lsb" Key="Dome_OdinGEO_SporeShrooms_Summon_DisplayName">Spore Shrooms</content>
-	<content contentuid="h624b3d68gb31fg4955gaa80g6edce20c33b4" Source="e0c0da33-da1d-499a-9261-387b09ebacad.lsf">Rock Volley Skillbook</content>
-	<content contentuid="h6dc66c73gbbfcg4789gac48gad118e1b9cf9" Source="e0e3a662-51e2-4688-8acf-77b487f25283.lsf">Granite Plating Skillbook</content>
-	<content contentuid="hf88a89c0gf589g4b38g809eg8949e72fd8b6" Source="ea7756ae-dcdf-495b-a554-fed419be4dba.lsf">Song of the Dryads Skillbook</content>
-	<content contentuid="h9a8660cagccf5g47d0g8632gfb1d0c1f66c9" Source="f230e98e-9f57-42f8-9f7c-9653cc5af2ef.lsf">Venom Burst Skillbook</content>
-	<content contentuid="hfad86da0gfc2eg416fga4b0gb752cb56e895" Source="f2d051da-a4ef-4bb4-83f7-5091834a9c4e.lsf">Poison Elemental</content>
-	<content contentuid="h0ccc083bg8d2bg479fg9a97gc5a7d8372224" Source="fbd43b34-f472-4901-ab01-aa9004e830c8.lsf">Direct the pointy end towards the problem.</content>
-	<content contentuid="h3d630ed8gd4fag4650g8dcegf7a354cf35fb" Source="fbd43b34-f472-4901-ab01-aa9004e830c8.lsf">Spears</content>
+	<content contentuid="hc5047e48g51fbg4c58g9949g36058bec6b36" Source="OdinGEO_Trader">Kestia the Preserver</content>
 	<content contentuid="h6f5d5166g5a20g45adg865dg70b4b658cde9" Source="OdinGEO_Vendor.lsj">*Take my leave*</content>
 	<content contentuid="h6273f840g0e0dg4b14g94d5gad4863f8c709" Source="OdinGEO_Vendor.lsj">If you change your mind, I&apos;ll be here. And remember - the balance must be preserved.</content>
 	<content contentuid="hc53ea047g60f6g4f26gb729gc3ce1b601eb4" Source="OdinGEO_Vendor.lsj">I would like to trade.</content>
@@ -166,6 +151,9 @@
 	<content contentuid="hc8c980a6gea9fg4d90g8371g2360852f930a" Source="Summon_DisplayName.lsb" Key="Summon_ArtilleryPlant_DisplayName">Conjure Poison Elemental</content>
 	<content contentuid="hfc40638egb25dg4d60g8b85gfd446b978c62" Source="Summon_DisplayName.lsb" Key="Summon_OdinGEO_ConjureEarthElemental_DisplayName">Conjure Earth Elemental</content>
 	<content contentuid="hab0a568bg24d5g4023gb4e1g32a1553bf642" Source="Summon_DisplayName.lsb" Key="Summon_OdinGEO_Summon_SageTree_DisplayName">Conjure Sage Tree</content>
+	<content contentuid="h938a3b1eg8451g4de8g9df8g3538faf9594f" Source="Summons_OdinGEO_EarthElemental_Large">Earth Elemental</content>
+	<content contentuid="h95426e5cg78d4g4260gb32fg84dad4b6e1b6" Source="Summons_OdinGEO_EarthElemental_Small">Earth Elemental</content>
+	<content contentuid="hfad86da0gfc2eg416fga4b0gb752cb56e895" Source="Summons_OdinGEO_PoisonElemental_Large">Poison Elemental</content>
 	<content contentuid="h6cf6bcc0ga16ag467dg9136g3a1f42d36b1c" Source="Target_Description.lsb" Key="Target_Condense_Description">Create an &lt;font color=&apos;#676464&apos;&gt;Oil surface&lt;/font&gt; at target location. &lt;br&gt;&lt;br&gt;Characters also become &lt;font color=&apos;#676464&apos;&gt;Oiled&lt;/font&gt;, reducing &lt;font color=&apos;#7f3d00&apos;&gt;Earth Resistance by [2]%&lt;/font&gt; and &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistance by [3]%&lt;/font&gt;.</content>
 	<content contentuid="h1c9ac0f5ge547g4ec4g84e6gffd3834e1934" Source="Target_Description.lsb" Key="Target_CorrosiveTouch_Description">Destroy [1] and apply &lt;font color=&apos;#00aa00&apos;&gt;Acid&lt;/font&gt; to target character.</content>
 	<content contentuid="hda069501gaa05g4380g933dg7872e7805d8b" Source="Target_Description.lsb" Key="Target_Fortify_Description">Rocks form a defensive barrier around the target, providing [1] and preventing them from being teleported. &lt;br&gt;&lt;br&gt;Cleanses &lt;font color=&apos;#00aa00&apos;&gt;Poisoned&lt;/font&gt;, &lt;font color=&apos;#c80030&apos;&gt;Bleeding&lt;/font&gt;, &lt;font color=&apos;#fe6e27&apos;&gt;Burning&lt;/font&gt;, &lt;font color=&apos;#00aa00&apos;&gt;Acid&lt;/font&gt;, and &lt;font color=&quot;#b823cb&quot;&gt;Decaying&lt;/font&gt; from the target.</content>
@@ -178,18 +166,20 @@
 	<content contentuid="hec3d6fd5ge5bfg49ddgb02cg9d049853a501" Source="Target_Description.lsb" Key="Target_OdinGEO_ParasiticAffliction_Description">Deal [1] and infect the target.&lt;br&gt;&lt;br&gt;Upon death or after one turn, the character will explode, dealing [2] in a 3m radius, setting &lt;font color=&quot;#65C900&quot;&gt;Poisoned&lt;/font&gt; and &lt;font color=&quot;#c9aa58&quot;&gt;Terrified&lt;/font&gt; to the host and each enemy hit in the area. &lt;br&gt;&lt;br&gt;The &lt;font color=&quot;#65C900&quot;&gt;Expunge&lt;/font&gt; skill purges the infection early.</content>
 	<content contentuid="h713097ecgcd7fg4635gbeb2gf4f09bc34956" Source="Target_Description.lsb" Key="Target_RockSpikes_Description">Rock spikes impale all characters, dealing [1] and creating an &lt;font color=&apos;#676464&apos;&gt;Oil surface&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Characters without &lt;font color=&apos;#a8a8a8&apos;&gt;Physical Armour&lt;/font&gt; become &lt;font color=&apos;#c80030&apos;&gt;Crippled&lt;/font&gt;, preventing movement.</content>
 	<content contentuid="h700ef91fg599eg426dg9dc2g78079fbaee2f" Source="Target_Description.lsb" Key="Target_WormTremor_Description">Frenzied vines deal [1] to each character in the area. &lt;br&gt;&lt;br&gt;Characters without &lt;font color=&apos;#188ede&apos;&gt;Magic Armour&lt;/font&gt; become &lt;font color=&apos;#7F00FF&apos;&gt;Entangled&lt;/font&gt;, preventing movement and dealing [2] each turn.</content>
-	<content contentuid="h8ee17211gbd1fg4e9fg8676g485e7475eff4" Source="Target_DisplayName.lsb" Key="Target_Condense_DisplayName">Midnight Oil</content>
-	<content contentuid="hac73fe9fgcd4cg4d2bga496g73a474fecbfe" Source="Target_DisplayName.lsb" Key="Target_CorrosiveTouch_DisplayName">Corrosive Touch</content>
-	<content contentuid="h33961a53g737cg46edg9d94gb7df28eccf50" Source="Target_DisplayName.lsb" Key="Target_Fortify_DisplayName">Fortify</content>
-	<content contentuid="hdbddabb7ge139g4b5egb741g94cdbab15772" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_Expunge_DisplayName">Expunge</content>
-	<content contentuid="hb1fab8e3g2598g4ce3gbfa0g23dbfcf8634d" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_GranitePlating_DisplayName">Granite Plating</content>
-	<content contentuid="hacc1f49bg26efg42c4gb8bcgb92e356102f2" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_NaturalRemedy_DisplayName">Natural Remedy</content>
-	<content contentuid="h95a55251ga34fg47c5ga8e5gd357e64beaeb" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_NoxiousTouch_DisplayName">Noxious Touch</content>
-	<content contentuid="hde9788b4g635eg4a64ga749g99e68e4aa925" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_OilyTouch_DisplayName">Oily Touch</content>
-	<content contentuid="h60b10f36g85e6g423dg8835g09aab1198fc8" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_OilyTouch_Summon_DisplayName">Oily Touch</content>
-	<content contentuid="hfa2a368cgac81g4ec7ga9fcg1fec6e79e011" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_ParasiticAffliction_DisplayName">Parasitic Affliction</content>
-	<content contentuid="h09610ac0g7fa9g4c23ga3deg00aed2134281" Source="Target_DisplayName.lsb" Key="Target_RockSpikes_DisplayName">Impalement</content>
-	<content contentuid="h8d48fbafgbf0dg4a1ag9278gf6acf467b991" Source="Target_DisplayName.lsb" Key="Target_WormTremor_DisplayName">Vine Grasp</content>
+	<content contentuid="hc665338dgff8dg4f3bgb5beg882e776a84ca" Source="Target_DisplayName.lsb" Key="Target_Condense_DisplayName">Midnight Oil</content>
+	<content contentuid="hc1953a11g777fg4c11ga6c6g017e6223e574" Source="Target_DisplayName.lsb" Key="Target_CorrosiveTouch_DisplayName">Corrosive Touch</content>
+	<content contentuid="h65902684gd69bg4aebg914agd40ae325b734" Source="Target_DisplayName.lsb" Key="Target_Fortify_DisplayName">Fortify</content>
+	<content contentuid="h04372122g3d93g45fcg83acg16c26617ac72" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_Expunge_DisplayName">Expunge</content>
+	<content contentuid="hbfb10b42ge098g4c32g85a0gc155e5c7ee88" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_GranitePlating_DisplayName">Granite Plating</content>
+	<content contentuid="h5cde50b9g9740g480ag9b30ge5403525fc75" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_NaturalRemedy_DisplayName">Natural Remedy</content>
+	<content contentuid="ha26e5397gf5c1g4ab8g8654g25d94b54a206" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_NoxiousTouch_DisplayName">Noxious Touch</content>
+	<content contentuid="h7a370c0dgfb7eg492bga38agcb8f579be00d" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_OilyTouch_DisplayName">Oily Touch</content>
+	<content contentuid="he485bc95g8b2eg45a4ga14bg572e811b4592" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_OilyTouch_Summon_DisplayName">Oily Touch</content>
+	<content contentuid="hf9a22dc4g9878g4519g9ccfg7a832007990b" Source="Target_DisplayName.lsb" Key="Target_OdinGEO_ParasiticAffliction_DisplayName">Parasitic Affliction</content>
+	<content contentuid="h4396f670g27f2g4af8gbc34gef44f203fb09" Source="Target_DisplayName.lsb" Key="Target_RockSpikes_DisplayName">Impalement</content>
+	<content contentuid="h453eb665g5a57g4665g9153g802d81c94a95" Source="Target_DisplayName.lsb" Key="Target_WormTremor_DisplayName">Vine Grasp</content>
 	<content contentuid="hbebeb4deg95fbg461bga2a9g750935bbf929" Source="Wall_Description.lsb" Key="Wall_LivingWall_Description">Draw an impassable wall of &lt;font color=&quot;#65C900&quot;&gt;vines&lt;/font&gt;, spanning up to [1] and lasting 2 turns. This wall creates a &lt;font color=&quot;#65C900&quot;&gt;Poison cloud&lt;/font&gt;.</content>
 	<content contentuid="he7a21b40g72a8g4de7ga14cgc37ee6344e84" Source="Wall_DisplayName.lsb" Key="Wall_LivingWall_DisplayName">Vine Wall</content>
+	<content contentuid="h0ccc083bg8d2bg479fg9a97gc5a7d8372224" Source="WPN_OdinGEO_TitanSpear">Direct the pointy end towards the problem.</content>
+	<content contentuid="h3d630ed8gd4fag4650g8dcegf7a354cf35fb" Source="WPN_OdinGEO_TitanSpear">Spears</content>
 </contentList>

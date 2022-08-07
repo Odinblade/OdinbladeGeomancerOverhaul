@@ -34,7 +34,7 @@ data "CastEffect" "RS3_FX_Skills_Earth_Cast_Aoe_Voodoo_Root_01_Poison;RS3_FX_Ski
 data "Memory Cost" "1"
 data "Magic Cost" "0"
 data "DomeEffect" "OdinGEO_Dome_01"
-data "CycleConditions" "Ally;!Dead"
+data "CycleConditions" "Enemy;!Dead"
 
 new entry "Dome_OdinGEO_SporeShrooms_Summon"
 type "SkillData"
@@ -71,5 +71,5 @@ data "CastEffect" "RS3_FX_Skills_Earth_Cast_Aoe_Voodoo_Root_01_Poison;RS3_FX_Ski
 data "Memory Cost" "1"
 data "Magic Cost" "0"
 data "DomeEffect" "OdinGEO_Dome_01"
-data "CycleConditions" "Ally;!Dead"
+data "CycleConditions" "Enemy;!Dead"
 
