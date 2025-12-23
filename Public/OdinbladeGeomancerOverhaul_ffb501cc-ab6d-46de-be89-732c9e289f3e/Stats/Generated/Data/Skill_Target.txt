@@ -541,5 +541,6 @@ data "ForGameMaster" "No"
 data "IsEnemySkill" "Yes"
 data "Memory Cost" "0"
 data "Magic Cost" "0"
-data "TargetConditions" "HasStatus:POISONED"
+data "SkillProperties" "OdinGEO_PROC_Expunge,100,0;"
+data "TargetConditions" "Enemy;HasStatus:POISONED|HasStatus:OdinGEO_ParasiticAffliction"
 
