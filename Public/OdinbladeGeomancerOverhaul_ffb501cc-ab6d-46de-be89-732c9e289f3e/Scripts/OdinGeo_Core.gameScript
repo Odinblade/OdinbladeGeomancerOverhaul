@@ -65,6 +65,7 @@ CHARACTER:_Character
 
 ON
 	OnSkillCast(_Character, Shout_OdinGEO_SongOfTheDryads)
+	OnSkillCast(_Character, Shout_OdinGEO_Enemy_SongOfTheDryads)
 ACTIONS
 	CharacterApplyStatus(_Character, OdinGEO_Ironbark, 2, 1, _Character)
 
