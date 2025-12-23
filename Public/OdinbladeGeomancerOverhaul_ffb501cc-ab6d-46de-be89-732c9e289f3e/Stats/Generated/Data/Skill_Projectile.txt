@@ -571,6 +571,5 @@ data "SkillType" "Projectile"
 using "Projectile_OdinGEO_RockVolley"
 data "ForGameMaster" "No"
 data "IsEnemySkill" "Yes"
-data "Template" "0ac5f236-3328-4a48-b1cd-a6e9065bbdf4"
 data "Memory Cost" "0"
 
