@@ -31,6 +31,7 @@ PROC_OBGEO_ConfigureEnemySkills();
 PROC
 PROC_OBGEO_ConfigureEnemySkills()
 THEN
+// Midnight Oil
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_EnemyCondense");
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_EnemyCondense");
 
@@ -40,14 +41,13 @@ PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyMendMetal","Rush_OdinGEO_Enemy_Seismi
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Target_OdinGEO_Enemy_NoxiousTouch");
 
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","OdinGEO_Enemy_OilyTouch");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_OdinGEO_Enemy_OilyTouch");
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyPoisonWave","OdinGEO_Enemy_ParasiticAffliction");
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores","OdinGEO_Enemy_ParasiticAffliction");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyPoisonWave","Target_OdinGEO_Enemy_ParasiticAffliction");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores","Target_OdinGEO_Enemy_ParasiticAffliction");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores_Puppet","Target_OdinGEO_Enemy_ParasiticAffliction");
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores_Puppet","OdinGEO_Enemy_ParasiticAffliction");
-
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","OdinGEO_Enemy_Expunge");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Target_OdinGEO_Enemy_Expunge");
 EXITSECTION
 
 ENDEXITSECTION
