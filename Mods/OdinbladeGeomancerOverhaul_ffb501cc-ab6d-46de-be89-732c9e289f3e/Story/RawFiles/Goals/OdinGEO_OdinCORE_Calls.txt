@@ -1,22 +1,6 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_OBCORE_EnemySkill_Pair("","");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPyroclasticRock","Target_EnemyCondense");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFireball","Target_EnemyCondense");
-DB_OBCORE_EnemySkill_Pair("Target_EnemyRockSpikes","Target_OdinGEO_Enemy_GranitePlating");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyMendMetal","Rush_OdinGEO_Enemy_SeismicSlide");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPoisonDart","Target_OdinGEO_Enemy_NoxiousTouch");
-
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPyroclasticRock","OdinGEO_Enemy_OilyTouch");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyPoisonWave","OdinGEO_Enemy_ParasiticAffliction");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyAcidSpores","OdinGEO_Enemy_ParasiticAffliction");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyAcidSpores_Puppet","OdinGEO_Enemy_ParasiticAffliction");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPoisonDart","OdinGEO_Enemy_Expunge");
-
-GlobalSetFlag("OdinGEO_Fix_V1_DB");
-GlobalSetFlag("OdinGEO_Fix_V2_DB");
-
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
 DB_OBCORE_CustomVendor(OdinGEO_Trader_000_a7747a2f-5f7a-4fe7-a92d-3c36f28ba8f9, "OdinGEO_Vendor"); //Fort Joy - Square
@@ -35,38 +19,35 @@ DB_OBCORE_CustomVendor(OdinGEO_Trader_000_12dc222e-a224-4f73-94bd-c82595425561, 
 
 KBSECTION
 IF
-SavegameLoaded(_,_,_,_)
-AND
-NOT DB_GlobalFlag("OdinGEO_Fix_V1_DB")
+GameStarted(_, _)
 THEN
-GlobalSetFlag("OdinGEO_Fix_V1_DB");
-PROC_OBGEO_Update_EnemySkills_DB();
+PROC_OBGEO_ConfigureEnemySkills();
 
 IF
 SavegameLoaded(_,_,_,_)
-AND
-NOT DB_GlobalFlag("OdinGEO_Fix_V2_DB")
 THEN
-GlobalSetFlag("OdinGEO_Fix_V2_DB");
-PROC_OBGEO_Update_EnemySkills_DB_2();
+PROC_OBGEO_ConfigureEnemySkills();
 
-//Adds new EnemySkills
 PROC
-PROC_OBGEO_Update_EnemySkills_DB()
+PROC_OBGEO_ConfigureEnemySkills()
 THEN
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPyroclasticRock","OdinGEO_Enemy_OilyTouch");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyPoisonWave","OdinGEO_Enemy_ParasiticAffliction");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyAcidSpores","OdinGEO_Enemy_ParasiticAffliction");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyAcidSpores_Puppet","OdinGEO_Enemy_ParasiticAffliction");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyPoisonDart","OdinGEO_Enemy_Expunge");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_EnemyCondense");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_EnemyCondense");
 
-//Adds new EnemySkills
-PROC
-PROC_OBGEO_Update_EnemySkills_DB_2()
-THEN
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyPyroclasticRock", "Projectile_OdinGEO_Enemy_RockVolley", 5);
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemyRockSpikes", "Projectile_OdinGEO_Enemy_RockVolley", 5);
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyPoisonWave","OdinGEO_Enemy_Expunge");
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Target_OdinGEO_Enemy_GranitePlating");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyMendMetal","Rush_OdinGEO_Enemy_SeismicSlide");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Target_OdinGEO_Enemy_NoxiousTouch");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","OdinGEO_Enemy_OilyTouch");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyPoisonWave","OdinGEO_Enemy_ParasiticAffliction");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores","OdinGEO_Enemy_ParasiticAffliction");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores_Puppet","OdinGEO_Enemy_ParasiticAffliction");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","OdinGEO_Enemy_Expunge");
 EXITSECTION
 
 ENDEXITSECTION
