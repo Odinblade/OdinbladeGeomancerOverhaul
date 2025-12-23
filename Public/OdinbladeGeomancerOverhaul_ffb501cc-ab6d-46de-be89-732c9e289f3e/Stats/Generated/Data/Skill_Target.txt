@@ -289,6 +289,7 @@ data "CastEffect" "RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Poison_Root_01,KeepRo
 data "TargetEffect" "OdinGEO_Impact_04:root:cast"
 data "TargetGroundEffect" "OdinGEO_Impact_04:root:cast"
 data "CycleConditions" "Enemy;!Dead"
+data "TargetConditions" "HasStatus:POISONED|HasStatus:ACID|HasStatus:ENTANGLED|HasStatus:OdinGEO_ParasiticAffliction"
 
 new entry "Target_CorrosiveTouch"
 type "SkillData"
