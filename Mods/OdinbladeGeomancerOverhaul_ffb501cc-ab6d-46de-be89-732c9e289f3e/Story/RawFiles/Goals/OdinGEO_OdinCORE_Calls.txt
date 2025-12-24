@@ -38,8 +38,8 @@ PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_EnemyCondense"
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Target_OdinGEO_Enemy_GranitePlating");
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFortify","Target_OdinGEO_Enemy_GranitePlating", 6);
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyMendMetal","Rush_OdinGEO_Enemy_SeismicSlide");
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Rush_OdinGEO_Enemy_SeismicSlide");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyMendMetal","Rush_OdinGEO_Enemy_SeismicSlide", 4);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Rush_OdinGEO_Enemy_SeismicSlide", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyMendMetal","Shout_OdinGEO_Enemy_Earthbrand");
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyReactiveArmor","Shout_OdinGEO_Enemy_Earthbrand");
@@ -54,13 +54,13 @@ PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyReactiveArmor","Target_OdinGEO_Enemy_
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyPoisonWave","Target_OdinGEO_Enemy_ParasiticAffliction");
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyAcidSpores","Target_OdinGEO_Enemy_ParasiticAffliction");
 
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Target_OdinGEO_Enemy_Expunge");
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyAcidSpores","Target_OdinGEO_Enemy_Expunge");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Target_OdinGEO_Enemy_Expunge", 4);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyAcidSpores","Target_OdinGEO_Enemy_Expunge", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Projectile_OdinGEO_Enemy_RockVolley", 9);
 
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Projectile_OdinGEO_EnemyVenomBurst", 3);
-PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyAcidSpores","Projectile_OdinGEO_EnemyVenomBurst");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Projectile_OdinGEO_EnemyVenomBurst", 4);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyAcidSpores","Projectile_OdinGEO_EnemyVenomBurst", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRestoration","Target_OdinGEO_Enemy_NaturalRemedy", 5);
 
