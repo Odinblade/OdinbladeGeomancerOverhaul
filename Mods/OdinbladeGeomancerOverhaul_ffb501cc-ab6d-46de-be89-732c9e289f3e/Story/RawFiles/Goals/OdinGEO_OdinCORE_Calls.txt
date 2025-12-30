@@ -36,7 +36,7 @@ PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_EnemyCo
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Target_EnemyCondense");
 
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Target_OdinGEO_Enemy_GranitePlating");
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFortify","Target_OdinGEO_Enemy_GranitePlating", 6);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFortify","Target_OdinGEO_Enemy_GranitePlating", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyMendMetal","Rush_OdinGEO_Enemy_SeismicSlide", 4);
 PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Rush_OdinGEO_Enemy_SeismicSlide", 4);
@@ -58,17 +58,19 @@ PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Target_OdinGEO_Enem
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyAcidSpores","Target_OdinGEO_Enemy_Expunge", 4);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Projectile_OdinGEO_Enemy_RockVolley", 9);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRockSpikes","Projectile_OdinGEO_Enemy_RockVolley", 9);
 
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPoisonDart","Projectile_OdinGEO_EnemyVenomBurst", 4);
 PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyAcidSpores","Projectile_OdinGEO_EnemyVenomBurst", 4);
 
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRestoration","Target_OdinGEO_Enemy_NaturalRemedy", 5);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyRestoration","Target_OdinGEO_Enemy_NaturalRemedy", 9);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFortify","Target_OdinGEO_Enemy_NaturalRemedy", 9);
 
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWormTremor","Shout_OdinGEO_SongOfTheDryads", 8);
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyPoisonWave","Shout_OdinGEO_SongOfTheDryads", 12);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyWormTremor","Shout_OdinGEO_SongOfTheDryads", 9);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyPoisonWave","Shout_OdinGEO_SongOfTheDryads", 13);
 
-PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyReactiveArmor","ProjectileStrike_OdinGEO_Enemy_BoulderCrash", 8);
-PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPetrifyingTouch","ProjectileStrike_OdinGEO_Enemy_BoulderCrash", 6);
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyReactiveArmor","ProjectileStrike_OdinGEO_Enemy_BoulderCrash", 9);
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyPetrifyingTouch","ProjectileStrike_OdinGEO_Enemy_BoulderCrash", 4);
 EXITSECTION
 
 ENDEXITSECTION
